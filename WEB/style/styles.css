@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+:root{
+    --main-color:#c2ae95;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: normal;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+ overflow: hidden;
+ background-color: #333;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+body {
+	background-image: url("wallpaper.jpg");
+	position: relative;
+	background-size: 100%;
+	margin:0;
+}
+.container .card{
+	text-align: center;
+	position: relative;
+	height: 200px;
+	background: #f6f8f6;
+	margin: 15px 5px;
+	padding: 20px 15px;
+	border-radius: 20px;
+}
+
+ul{
+	text-align: center;
+	float: middle;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration:none;
+	color: #000023;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000023;
+}
+
+ul li.#default a{
+	background-color: #fff;
+	color: #000023;
+}
+	
+a {
+	color: #F6F8F6;
+	text-decoration; underline;
+}
+	
+a:hover {
+	color: #F6F8F6; 
+	text-decoration: none;
+}
+.active {
+ background-color: #0000;
+}
+
+.map {
+	position: center;
+	padding-top: 500px;
+	padding-bottom:100%;
+	float: right;
+}
+.red {
+	height: 100px;
+	width: 200px;
+	background: red;
+	float: left;
+}
+.blue {
+	height: 100px;
+	width: 200px;
+	background: blue;
+	float: left;
+}
+.green {
+	height: 100px;
+	width: 200px;
+	background: green;
+	float: left;
+}
